@@ -1,0 +1,19 @@
+.menu {
+  height: 2.1rem;
+  width: 45%;
+
+  box-sizing: border-box;
+  display: flex;
+  column-gap: 2rem;
+}
+.section {
+  height: 100%;
+  width: 20%;
+
+  position: relative;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}

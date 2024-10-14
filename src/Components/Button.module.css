@@ -1,0 +1,19 @@
+.btn {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: rgb(224, 234, 241);
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0.5rem 0.2rem 0.3rem 0.2rem rgb(238, 236, 236),
+    inset -4px -1px 1px 1px rgb(255, 255, 255);
+  transform: rotate(25deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.turn {
+  transform: rotate(-25deg);
+  font-size: 2rem;
+  font-weight: 600;
+}
